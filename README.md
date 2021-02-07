@@ -7,6 +7,7 @@ I wrote 2sh to make my daily life as a System Administrator easier. Since I conn
 ## Dependencies
 2sh requires `bw` [Bitwarden CLI](https://github.com/bitwarden/cli) tool to be installed as well as [jq](https://github.com/stedolan/jq) to handle `bw` json output.
 On Linux you can usually install `bw` using their native binaries or via snap among other methods and `jq` via your favorite package manager. On macOS you should be able to install both dependencies with Homebrew.
+To login and pass along the TOTP code, 2sh uses `sshpass`. On Linux this should be easily installable (if not already). On macOS you can install it with Homebrew like this `brew install hudochenkov/sshpass/sshpass`.
 
 ## Install and Setup
 It's fairly simple. If the dependencies are met, download 2sh.sh and copy it to a suitable loction. On Linux or macOS this could be `/usr/local/bin/2sh`.
